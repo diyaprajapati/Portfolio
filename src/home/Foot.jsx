@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function footer() {
   return (
-    <div className='self-center flex flex-row gap-28 bg-white px-32 py-4 rounded-full drop-shadow-2xl'>
+    <div className='self-center flex flex-row gap-28 bg-white px-36 py-6 rounded-full drop-shadow-2xl'>
       {/* other accounts */}
       <div className='flex flex-col gap-3 font-semibold text-gray-500 text-center'>
         <h1>Check out my</h1>

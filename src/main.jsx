@@ -6,27 +6,16 @@ import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 
-// const router = createBrowserRouter (
-//   [
-//     {
-//       path: '/',
-//       element: <App/>
-//     },
-//     {
-//       path: 'app',
-//       element: <App/>
-//     }
-//   ]
-// )
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
+const router = createBrowserRouter (
+  [
+    {
+      path: '/',
+      element: <App/>
+    }
+  ]
 )
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <RouterProvider router={router}/>
-// )
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <RouterProvider router={router}/>
+)

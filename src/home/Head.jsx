@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import App from '../App'
 
 export default function header() {
@@ -19,10 +19,10 @@ export default function header() {
             <a href='#'>Skills</a>
             <a href='#'>Projects</a>
             <a href='#'>Experience</a> */}
-            <Link to='/' className='nav-link'>Home</Link>
-            <Link to='/skill' className='nav-link'>Skills</Link>
-            <Link to='/project' className='nav-link'>Projects</Link>
-            <Link to='/experience' className='nav-link'>Experience</Link>
+            <NavLink to='/' className='nav-link' activeClassName='active-link'>Home</NavLink>
+            <NavLink to='/skill' className='nav-link' activeClassName='active-link'>Skills</NavLink>
+            <NavLink to='/project' className='nav-link' activeClassName='active-link'>Projects</NavLink>
+            <NavLink to='/experience' className='nav-link' activeClassName='active-link'>Experience</NavLink>
           </div>
 
           {/* Resume */}

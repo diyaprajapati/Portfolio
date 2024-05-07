@@ -32,6 +32,14 @@
   }
 }
 
+.active-link {
+  @apply bg-orange-600;
+  @apply w-full;
+
+  text-decoration: underline;
+}
+
+
 body {
   @apply bg-slate-200
 }
