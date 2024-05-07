@@ -5,11 +5,10 @@ import Footer from "./home/Foot"
 export default function App() {
   return (
     <>
-    <div className="p-4 flex flex-col gap-16  font-inter bg-slate-200">
+    <div className="p-4 flex flex-col gap-12 font-inter bg-slate-200">
         <Header/>
         <Body/>
         <Footer/>
-        
       </div>
     </>
   )

@@ -12,20 +12,25 @@ export default function Body() {
             <div className='text-6xl font-extrabold'>
                 I'm Diya
             </div>
+            <div className='text-5xl font-extrabold'>
+                I'm a Web Developer
+            </div>
             <div className='text-3xl font-bold text-gray-600'>
-            I'm a Software Engineer and 18 y/o old, currently based in Nadiad, Gujarat, India. I am currently pursuing B.Tech IT at DDU.
+            I'm 19 y/o old, currently based in Nadiad, Gujarat, India. I am currently pursuing B.Tech IT at DDU.
             </div>
         </div>
 
         {/* photo */}
-        <div>
+        <div className='drop-shadow-xl'>
             <img src='../public/diya-main.png' width={800}></img>
         </div>
-        <div className='absolute'>
+
+        {/* circle
+        <div className='align-bottom'>
             <svg height="100" width="100" xmlns="http://www.w3.org/2000/svg">
             <circle r="45" cx="50" cy="50" fill="red" />
             </svg>
-        </div>
+        </div> */}
     </div>
   )
 }

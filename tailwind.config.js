@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: "Inter, sans-serif",
+        dancingScript: "Dancing Script, sans-serif",
       }
     },
   },
