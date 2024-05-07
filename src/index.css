@@ -32,14 +32,42 @@
   }
 }
 
-.active-link {
-  @apply bg-orange-600;
-  @apply w-full;
+.active-nav-link {
 
-  text-decoration: underline;
+  &:after{
+    @apply absolute; /* Position the underline */
+    @apply block; /* Make it a block element */
+    @apply bg-orange-600; /* Set underline color */
+    @apply w-full; /* Full width */
+    @apply h-0.5; /* Height of the underline */
+    @apply transition-all; /* Smooth transition */
+    @apply duration-300; /* Transition duration */
+    @apply origin-bottom; /* Align underline to bottom */
+    @apply transform scale-x-100; /* Initially hide underline */
+    @apply -translate-y-0.5; /* Move it below the text */
+    content: ''; /* Required for pseudo-elements */
+  }
 }
 
 
+/* hide scrollbar */
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      scrollbar-width: none;  /* Firefox */
+      -ms-overflow-style: none;  /* IE and Edge */
+  }
+}
+
+html,
 body {
-  @apply bg-slate-200
+  @apply no-scrollbar; /* Apply no-scrollbar class */
+}
+
+body {
+  @apply bg-slate-200 no-scrollbar;
 }

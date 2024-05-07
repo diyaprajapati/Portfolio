@@ -1,8 +1,13 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
-import App from '../App'
+import { Link } from 'react-router-dom';
 
 export default function header() {
+
+  // for underline
+  const url = window.location.pathname;
+  console.log(url)
+
+  
   return (
     <div>
       <div className='flex flex-row justify-between px-24'>
@@ -15,19 +20,17 @@ export default function header() {
         {/* other page links */}
         <div className='flex flex-row gap-20 text-end'>
           <div className='flex flex-row gap-5 self-center'>
-            {/* <a href='#' className='hover-underline-animation'>Home</a>
-            <a href='#'>Skills</a>
-            <a href='#'>Projects</a>
-            <a href='#'>Experience</a> */}
-            <NavLink to='/' className='nav-link' activeClassName='active-link'>Home</NavLink>
-            <NavLink to='/skill' className='nav-link' activeClassName='active-link'>Skills</NavLink>
-            <NavLink to='/project' className='nav-link' activeClassName='active-link'>Projects</NavLink>
-            <NavLink to='/experience' className='nav-link' activeClassName='active-link'>Experience</NavLink>
+            <Link to='/' className= {`nav-link ${url == '/' ? 'active-nav-link' : ''}`} >Home</Link>
+            <Link to='/skill' className={`nav-link ${url == '/skill' ? 'active-nav-link' : ''}`} >Skills</Link>
+            <Link to='/project' className={`nav-link ${url == '/project' ? 'active-nav-link' : ''}`} >Projects</Link>
+            <Link to='/experience' className={`nav-link ${url == '/experience' ? 'active-nav-link' : ''}`} >Experience</Link>
           </div>
 
           {/* Resume */}
           <div className='border-[2px] border-orange-600 py-2 px-4 rounded-full text-orange-600 hover:bg-orange-600 hover:text-white hover:transition-all hover:ease-in-out duration-200'>
-          <a href="https://drive.google.com/file/d/1j9VOimbCSQi_4SmMWsgcnChTIJETyxBD/view?usp=sharing"><button className='p-2'>Resume</button></a> 
+            <a href="https://drive.google.com/file/d/1j9VOimbCSQi_4SmMWsgcnChTIJETyxBD/view?usp=sharing">
+              <button className='p-2'>Resume</button>
+            </a> 
           </div>
         </div>
       </div>
