@@ -4,7 +4,7 @@ import Project from './Project'
 
 export default function ProjectList() {
   return (
-    <div className='flex flex-wrap justify-center'>
+    <div className="grid grid-cols-3 gap-4">
         {project.map((ele) => {
             return <Project
                 image = {ele.image}
