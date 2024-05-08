@@ -15,7 +15,7 @@ export default function Body() {
             <div className='text-5xl font-extrabold'>
                 Web Developer
             </div>
-            <div className='text-3xl font-bold text-gray-600'>
+            <div className='text-3xl font-bold text-gray-600 my-5'>
             I'm 19 y/o old, currently based in Nadiad, Gujarat, India. I am currently pursuing B.Tech IT at DDU.
             </div>
         </div>
