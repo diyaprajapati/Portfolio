@@ -22,7 +22,7 @@ export default function Body() {
 
         {/* photo */}
         <div className='drop-shadow-xl'>
-            <img src='../public/diya-main.png' width={800}></img>
+            <img src='../public/diya.png' width={900}></img>
         </div>
 
     </div>

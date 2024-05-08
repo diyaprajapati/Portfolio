@@ -5,6 +5,7 @@ import App from './App.jsx'
 import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Skills from './Skills.jsx';
+import Projects from './Projects.jsx';
 
 const router = createBrowserRouter (
   [
@@ -15,6 +16,10 @@ const router = createBrowserRouter (
     {
       path: '/skill',
       element: <Skills/>
+    },
+    {
+      path: '/project',
+      element: <Projects/>
     }
   ]
 )

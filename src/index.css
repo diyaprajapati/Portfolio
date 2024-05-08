@@ -32,6 +32,7 @@
   }
 }
 
+/* for static underline in active file */
 .active-nav-link {
 
   &:after{
