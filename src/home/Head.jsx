@@ -10,7 +10,7 @@ export default function header() {
   
   return (
     <div>
-      <div className='flex flex-row justify-between px-24'>
+      <div className='flex flex-row justify-between px-12 lg:px-24 md:px-16'>
 
         {/* name */}
         <div className='text-3xl font-extrabold self-center font-dancingScript'>
@@ -18,7 +18,7 @@ export default function header() {
         </div>
 
         {/* other page links */}
-        <div className='flex flex-row gap-20 text-end'>
+        <div className='flex flex-row gap-20 text-end md:gap-12'>
           <div className='flex flex-row gap-5 self-center'>
             <Link to='/' className= {`nav-link ${url == '/' ? 'active-nav-link' : ''}`} >Home</Link>
             <Link to='/skill' className={`nav-link ${url == '/skill' ? 'active-nav-link' : ''}`} >Skills</Link>
