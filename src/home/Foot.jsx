@@ -7,7 +7,7 @@ export default function footer() {
       <div className='flex flex-col gap-3 font-semibold text-gray-500 text-center self-center'>
         <h1>Check out my</h1>
         <div className='flex flex-row gap-10 md:gap-6'>
-          <a href="https://github.com/diyaprajapati"><img src='../public/github-50.png' className='hover:scale-110 '></img></a>
+          <a href="https://github.com/diyaprajapati"><img src='../public/github-50.png' className='hover:scale-110'></img></a>
           <a href="https://www.linkedin.com/in/diya-prajapati-453858267/"><img src='../public/linkedin_icon.png' className='hover:scale-110 w-[48px] md:w-[48px]'></img></a>
           <a href="https://x.com/Diya0505?t=i9y-OVB4DZ6iLB8hhxHKQQ&s=09"><img src='../public/twitter-x-icon-png.png' className='hover:scale-110 w-[48px] md:w-[48px]'></img></a>
         </div>
