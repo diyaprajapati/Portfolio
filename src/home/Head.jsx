@@ -115,7 +115,7 @@ export default function Header() {
             <Link to="/project" className={`nav-link`}>
               Projects
             </Link>
-            <Link to="/experience" className={`nav-link`}>
+            <Link to="/experiences" className={`nav-link`}>
               Experience
             </Link>
           </div>
@@ -146,7 +146,7 @@ export default function Header() {
           <Link to="/project" className={`nav-link`} onClick={closeMenu}>
             Projects
           </Link>
-          <Link to="/experience" className={`nav-link`} onClick={closeMenu}>
+          <Link to="/experiences" className={`nav-link`} onClick={closeMenu}>
             Experience
           </Link>
           <div className="border-[2px] border-orange-600 py-2 px-4 rounded-full text-orange-600 hover:bg-orange-600 hover:text-white hover:transition-all hover:ease-in-out duration-200">

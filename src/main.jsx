@@ -6,6 +6,7 @@ import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Skills from './Skills.jsx';
 import Projects from './Projects.jsx';
+import Experience from './Experiences.jsx';
 
 const router = createBrowserRouter (
   [
@@ -20,6 +21,10 @@ const router = createBrowserRouter (
     {
       path: '/project',
       element: <Projects/>
+    },
+    {
+      path: '/experiences',
+      element: <Experience/>
     }
   ]
 )
