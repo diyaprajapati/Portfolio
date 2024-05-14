@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Programming Languages",
+        "lans": [
+            {
+                "imge": "../public/C.png",
+                "txt": "C"
+            },
+            {
+                "imge": "../public/cpp.png",
+                "txt": "C++"
+            },
+            {
+                "imge": "../public/java.png",
+                "txt": "Java"
+            }
+        ]
+    },
+    {
+        "title": "Front-End",
+        "lans": [
+            {
+                "imge": "../public/html.png",
+                "txt": "HTML"
+            },
+            {
+                "imge": "../public/css.png",
+                "txt": "CSS"
+            },
+            {
+                "imge": "../public/javascript.png",
+                "txt": "Java Script"
+            },
+            {
+                "imge": "../public/reactjs.png",
+                "txt": "React JS"
+            },
+            {
+                "imge": "../public/tailwind.png",
+                "txt": "Tailwind CSS"
+            }
+        ]
+    },
+    {
+        "title": "Back-End",
+        "lans": [
+            {
+                "imge": "../public/nodejs.png",
+                "txt": "Node JS"
+            },
+            {
+                "imge": "../public/expressjs.png",
+                "txt": "Express JS"
+            },
+            {
+                "imge": "../public/mongodb.png",
+                "txt": "MongoDB"
+            }
+        ]
+    },
+    {
+        "title": "Design",
+        "lans": [
+            {
+                "imge": "../public/figma.png",
+                "txt": "Figma"
+            }
+        ]
+    }
+]
