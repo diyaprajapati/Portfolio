@@ -1,4 +1,5 @@
 import React from 'react'
+import { Tilt } from 'react-tilt'
 
 export default function Body() {
   return (
@@ -21,9 +22,11 @@ export default function Body() {
         </div>
 
         {/* photo */}
-        <div className='drop-shadow-xl self-center'>
-            <img src='../public/diya.png' className='md:w-[1300px] lg:w-[1100px]'></img>
-        </div>
+        <Tilt>
+            <div className='drop-shadow-xl self-center '>
+                <img src='../public/diya.png' className='md:w-[1300px] lg:w-[1100px]'></img>
+            </div>
+        </Tilt>
 
     </div>
   )
