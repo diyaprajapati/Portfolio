@@ -15,10 +15,10 @@ const Langs = ({ skills }) => {
 
             {/* list of languages */}
             <div className='flex flex-row justify-center'>
-            <ul className='grid grid-cols-2 gap-5 md:grid-cols-3 md:gap-8'>
+            <ul className='flex flex-wrap justify-center gap-10'>
               {skill.lans.map((language, idx) => (
                 <li key={idx}>
-                  <div className='flex flex-row border-2 px-3 py-2 border-slate-300 justify-start rounded-md w-full gap-3'>
+                  <div className='flex flex-row border-2 px-4 py-2 border-slate-300 justify-start rounded-md w-full gap-3'>
                     {/* image of lang */}
                     <div>
                       <img src={language.imge} width='30px' alt={language.txt} />
