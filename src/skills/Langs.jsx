@@ -9,7 +9,7 @@ const Langs = ({ skills }) => {
           <div key={index} className='flex flex-col border-2 border-slate-400 drop-shadow-xl p-5 py-8 rounded-lg gap-8 bg-slate-100 h-full '>
 
           {/* title */}
-            <div className='text-center font-bold text-xl text-slate-600'>
+            <div className='text-center font-bold text-2xl text-slate-600'>
               <h1>{skill.title}</h1>
             </div>
 
@@ -25,7 +25,7 @@ const Langs = ({ skills }) => {
                     </div>
 
                     {/* name of lang */}
-                    <div className='text-slate-700'>
+                    <div className='text-slate-700 self-center text-base'>
                       <h2>{language.txt}</h2>
                     </div>
                   </div>
