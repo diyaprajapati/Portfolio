@@ -6,7 +6,7 @@ const Langs = ({ skills }) => {
     <div className='flex flex-col gap-10 p-12 md:grid md:grid-cols-2 md:p-24 md:gap-16'>
       {skills.map((skill, index) => (
         <Tilt>
-          <div key={index} className='flex flex-col border-2 border-slate-400 drop-shadow-xl p-5 py-8 rounded-lg gap-8 bg-slate-100 h-full '>
+          <div key={index} className='flex flex-col border-2 border-slate-400 shadow-lg shadow-top shadow-slate-400 p-5 py-8 rounded-lg gap-8 bg-slate-100 h-full '>
 
           {/* title */}
             <div className='text-center font-bold text-2xl text-slate-600'>
