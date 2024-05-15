@@ -24,7 +24,7 @@ export default function Body() {
         {/* photo */}
         <Tilt>
             <div className='drop-shadow-xl self-center '>
-                <img src='../public/diya.png' className='md:w-[1300px] lg:w-[1100px]'></img>
+                <img src='/diya.png' className='md:w-[1300px] lg:w-[1100px]'></img>
             </div>
         </Tilt>
 

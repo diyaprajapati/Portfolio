@@ -3,15 +3,15 @@
         "title": "Programming Languages",
         "lans": [
             {
-                "imge": "../public/C.png",
+                "imge": "/C.png",
                 "txt": "C"
             },
             {
-                "imge": "../public/cpp.png",
+                "imge": "/cpp.png",
                 "txt": "C++"
             },
             {
-                "imge": "../public/java.png",
+                "imge": "/java.png",
                 "txt": "Java"
             }
         ]
@@ -20,23 +20,23 @@
         "title": "Front-End",
         "lans": [
             {
-                "imge": "../public/html.png",
+                "imge": "/html.png",
                 "txt": "HTML"
             },
             {
-                "imge": "../public/css.png",
+                "imge": "/css.png",
                 "txt": "CSS"
             },
             {
-                "imge": "../public/javascript.png",
+                "imge": "/javascript.png",
                 "txt": "Java Script"
             },
             {
-                "imge": "../public/reactjs.png",
+                "imge": "/reactjs.png",
                 "txt": "React JS"
             },
             {
-                "imge": "../public/tailwind.png",
+                "imge": "/tailwind.png",
                 "txt": "Tailwind CSS"
             }
         ]
@@ -45,15 +45,15 @@
         "title": "Back-End",
         "lans": [
             {
-                "imge": "../public/nodejs.png",
+                "imge": "/nodejs.png",
                 "txt": "Node JS"
             },
             {
-                "imge": "../public/expressjs.png",
+                "imge": "/expressjs.png",
                 "txt": "Express JS"
             },
             {
-                "imge": "../public/mongodb.png",
+                "imge": "/mongodb.png",
                 "txt": "MongoDB"
             }
         ]
@@ -62,7 +62,7 @@
         "title": "Design",
         "lans": [
             {
-                "imge": "../public/figma.png",
+                "imge": "/figma.png",
                 "txt": "Figma"
             }
         ]

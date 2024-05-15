@@ -1,24 +1,24 @@
 [
     {
-        "image": "../public/portfolio-react.png",
+        "image": "/portfolio-react.png",
         "title": "Portfolio-II",
         "about": "Using React JS and tailwind CSS",
         "link": "https://github.com/diyaprajapati/Portfolio"
     },
     {
-        "image": "../public/Portfolio_img.png",
+        "image": "/Portfolio_img.png",
         "title": "Portfolio",
         "about": "Using HTML, CSS and JS",
         "link": "https://diyaprajapati.github.io"
     },
     {
-        "image": "../public/NoteNex.png",
+        "image": "/NoteNex.png",
         "title": "NoteNex",
         "about": "Using HTML, CSS, JS, Express JS, Node JS and MongoDB in Hackathon",
         "link": "https://github.com/diyaprajapati/NoteNex"
     },
     {
-        "image": "../public/BidIt.png",
+        "image": "/BidIt.png",
         "title": "Bid-It",
         "about": "Using HTML and CSS in 2nd sem project",
         "link": ""
