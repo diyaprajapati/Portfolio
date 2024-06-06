@@ -75,9 +75,9 @@ export default function Header() {
             <Link to="/project" className={`nav-link`}>
               Projects
             </Link>
-            {/* <Link to="/experiences" className={`nav-link`}>
-              Experience
-            </Link> */}
+            <Link to="/achievement" className={`nav-link`}>
+              Achievements
+            </Link>
           </div>
           <div className="border-[2px] border-orange-600 py-2 px-4 rounded-full text-orange-600 hover:bg-orange-600 hover:text-white hover:transition-all hover:ease-in-out duration-200">
             <a href="https://drive.google.com/file/d/1j9VOimbCSQi_4SmMWsgcnChTIJETyxBD/view?usp=sharing">
@@ -106,9 +106,9 @@ export default function Header() {
           <Link to="/project" className={`nav-link`} onClick={closeMenu}>
             Projects
           </Link>
-          {/* <Link to="/experiences" className={`nav-link`} onClick={closeMenu}>
-            Experience
-          </Link> */}
+          <Link to="/achievement" className={`nav-link`} onClick={closeMenu}>
+            Achievements
+          </Link>
           <div className="border-[2px] border-orange-600 py-2 px-4 rounded-full text-orange-600 hover:bg-orange-600 hover:text-white hover:transition-all hover:ease-in-out duration-200">
             <a href="https://drive.google.com/file/d/1j9VOimbCSQi_4SmMWsgcnChTIJETyxBD/view?usp=sharing">
               <button className="p-2" onClick={closeMenu}>Resume</button>
