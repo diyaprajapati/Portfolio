@@ -7,8 +7,8 @@ export default function Project(props) {
   return ( 
         <div className='bg-white rounded-2xl shadow-md p-5 m-7 hover:scale-105 hover:transition-all hover:ease-in-out duration-200'>
             {/* image */}
-            <div>
-                <img src={image} width={500} atl={title} className=' w-2/4rounded-t-lg border-[2px]'></img>
+            <div className='flex justify-center overflow-hidden rounded-t-lg border-2 border-gray-300'>
+                <img src={image} width={500} atl={title} className='w-full h-48 object-cover'></img>
             </div>
 
             {/* other info like name, links etc */}
