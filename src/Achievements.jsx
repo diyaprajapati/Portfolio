@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from './Layout'
 import Head from './home/Head'
-import { AchieveList } from './achievements/AchieveList';
+import AchieveList from './achievements/AchieveList';
 
 export default function Achievements() {
   return (
