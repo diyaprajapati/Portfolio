@@ -2,23 +2,28 @@ import React from 'react';
 
 const Achieve = ({ achievements }) => {
   return (
-    <div className="flex flex-wrap justify-center gap-6 p-4">
+    <div className="flex flex-wrap justify-center gap-10 p-4">
       {achievements.map((achievement, index) => (
         <div
           key={index}
-          className="max-w-xs bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 ease-in-out"
+          className="bg-white rounded-2xl shadow-md p-5 m-7 hover:scale-105 transition-transform duration-200 ease-in-out max-w-sm"
         >
-          <img
-            src={achievement.image}
-            alt={achievement.title}
-            className="w-full h-40 object-cover rounded-t-lg"
-          />
-          <div className="p-4">
-            <h2 className="text-xl font-semibold text-gray-800">{achievement.title}</h2>
+          {/* Image */}
+          <div className="flex justify-center overflow-hidden rounded-t-lg border-2 border-gray-300">
+            <img
+              src={achievement.image}
+              alt={achievement.title}
+              className="w-full h-48 object-cover"
+            />
+          </div>
+
+          {/* Other Info like name, links, etc */}
+          <div className="p-4 text-center">
+            <h1 className="text-xl font-bold mb-3">{achievement.title}</h1>
             <a
               href={achievement.link}
-              className="block mt-4 text-blue-600 hover:text-blue-800"
-              target="_blank"
+              className="text-blue-600 text-l font-semibold hover:text-blue-800 hover:underline"
+              target='_blank'
               rel="noopener noreferrer"
             >
               View Certificate
