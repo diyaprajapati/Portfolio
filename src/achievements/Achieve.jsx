@@ -20,14 +20,10 @@ const Achieve = ({ achievements }) => {
           {/* Other Info like name, links, etc */}
           <div className="p-4 text-center">
             <h1 className="text-xl font-bold mb-3">{achievement.title}</h1>
-            <a
-              href={achievement.link}
-              className="text-blue-600 text-l font-semibold hover:text-blue-800 hover:underline"
-              target='_blank'
-              rel="noopener noreferrer"
-            >
-              View Certificate
-            </a>
+            <button className='bg-green-600 px-3 py-2 mt-5 ms-2 border-green-800 rounded-lg hover:rounded-3xl hover:transition-all hover:ease-in-out duration-300'> <a href={achievement.link}
+              className="m-2 cursor-pointer text-white font-semibold"
+              target='_blank'>
+              View Certificate </a> </button>
           </div>
         </div>
       ))}

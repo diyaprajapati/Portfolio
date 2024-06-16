@@ -15,7 +15,7 @@ export default function Project(props) {
             <div className='p-4'>
                 <h1 className='text-center font-bold text-2xl m-3'>{title}</h1>
                 <h2 className='font-semibold text-gray-500 m-2'>{about}</h2>
-                <a href={link} className='m-2 cursor-pointer text-blue-600 font-semibold hover:text-blue-800 hover:underline'>Go to the link</a>
+                <button className='bg-green-600 px-3 py-2 mt-5 ms-2 border-green-800 rounded-lg hover:rounded-3xl hover:transition-all hover:ease-in-out duration-300'><a href={link} className='m-2 cursor-pointer text-white font-semibold' target='_blank'>Go to the link</a> </button>
             </div>
         </div>
   )
