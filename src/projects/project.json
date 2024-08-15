@@ -1,5 +1,11 @@
 [
     {
+        "image": "/nadiad_wiki.png",
+        "title": "Nadiad Wiki",
+        "about": "Using TypeScript, React JS and tailwind CSS",
+        "link": "https://nadiad.wiki"
+    },
+    {
         "image": "/portfolio-react.png",
         "title": "Portfolio-II",
         "about": "Using React JS and tailwind CSS",
