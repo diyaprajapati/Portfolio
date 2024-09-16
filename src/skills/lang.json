@@ -11,6 +11,10 @@
                 "txt": "C++"
             },
             {
+                "imge": "/javascript.png",
+                "txt": "Java Script"
+            },
+            {
                 "imge": "/java.png",
                 "txt": "Java"
             }
@@ -26,10 +30,6 @@
             {
                 "imge": "/css.png",
                 "txt": "CSS"
-            },
-            {
-                "imge": "/javascript.png",
-                "txt": "Java Script"
             },
             {
                 "imge": "/reactjs.png",
@@ -59,11 +59,42 @@
         ]
     },
     {
-        "title": "Design",
+        "title": "Mobile App Development",
+        "lans": [
+            {
+                "imge": "/android.png",
+                "txt": "Android"
+            }
+        ]
+    },
+    {
+        "title": "Database",
+        "lans": [
+            {
+                "imge": "/mongodb.png",
+                "txt": "MongoDB"
+            },
+            {
+                "imge": "/postgresql.png",
+                "txt": "PostgreSQL"
+            }
+        ]
+    },
+    {
+        "title": "Software",
         "lans": [
             {
                 "imge": "/figma.png",
                 "txt": "Figma"
+            }
+        ]
+    },
+    {
+        "title": "Other",
+        "lans": [
+            {
+                "imge": "/git.png",
+                "txt": "Git"
             }
         ]
     }
