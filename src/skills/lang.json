@@ -51,10 +51,6 @@
             {
                 "imge": "/expressjs.png",
                 "txt": "Express JS"
-            },
-            {
-                "imge": "/mongodb.png",
-                "txt": "MongoDB"
             }
         ]
     },
