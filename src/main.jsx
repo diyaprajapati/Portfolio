@@ -7,6 +7,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Skills from './Skills.jsx';
 import Projects from './Projects.jsx';
 import Achievements from './Achievements.jsx';
+import Blog from './Blog.jsx';
 
 const router = createBrowserRouter (
   [
@@ -25,6 +26,10 @@ const router = createBrowserRouter (
     {
       path: '/achievement',
       element: <Achievements/>
+    },
+    {
+      path: '/blog',
+      element: <Blog />
     }
   ]
 )

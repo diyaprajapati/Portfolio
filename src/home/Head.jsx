@@ -78,6 +78,9 @@ export default function Header() {
             <Link to="/achievement" className={`nav-link`}>
               Achievements
             </Link>
+            <Link to="/blog" className={`nav-link`}>
+              Blog
+            </Link>
           </div>
           <div className="border-[2px] border-orange-600 py-2 px-4 rounded-full text-orange-600 hover:bg-orange-600 hover:text-white hover:transition-all hover:ease-in-out duration-200">
             <a href="https://drive.google.com/file/d/1j9VOimbCSQi_4SmMWsgcnChTIJETyxBD/view?usp=sharing" target='_blank'>
@@ -108,6 +111,9 @@ export default function Header() {
           </Link>
           <Link to="/achievement" className={`nav-link`} onClick={closeMenu}>
             Achievements
+          </Link>
+          <Link to="/blog" className={`nav-link`} onClick={closeMenu}>
+            Blog
           </Link>
           <div className="border-[2px] border-orange-600 py-2 px-4 rounded-full text-orange-600 hover:bg-orange-600 hover:text-white hover:transition-all hover:ease-in-out duration-200">
             <a href="https://drive.google.com/file/d/1j9VOimbCSQi_4SmMWsgcnChTIJETyxBD/view?usp=sharing" target='_blank'>
