@@ -70,19 +70,6 @@ export default function Blog() {
         <div>
             <Head />
             <div className='flex flex-col gap-5 p-5'>
-                {/* {data.length > 0 ? (
-                    <>
-                        <div className='text-3xl font-bold underline text-orange-600 self-center'>
-                            {data[0].Title}
-                        </div>
-                        <div className='text-lg font-medium'>
-                            <MyComponent text={data[0].Data} />
-                        </div>
-                    </>
-                ) : (
-                    <div>No blog content available</div>
-                )} */}
-
                 {data.length > 0 ? (
                     <div>
                         {data.map((item, index) => (
