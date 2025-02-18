@@ -1,5 +1,11 @@
 [
     {
+        "image": "/projectHunt.png",
+        "title": "Project Hunt",
+        "about": "Using TypeScript, Spring boot, Postgres, React JS and tailwind CSS",
+        "link": "https://github.com/diyaprajapati/ProjectHunt"
+    },
+    {
         "image": "/nadiad_wiki.png",
         "title": "Nadiad Wiki",
         "about": "Using TypeScript, React JS and tailwind CSS",
@@ -7,15 +13,9 @@
     },
     {
         "image": "/portfolio-react.png",
-        "title": "Portfolio-II",
+        "title": "Portfolio",
         "about": "Using React JS and tailwind CSS",
         "link": "https://diya-prajapati.vercel.app"
-    },
-    {
-        "image": "/Portfolio_img.png",
-        "title": "Portfolio",
-        "about": "Using HTML, CSS and JS",
-        "link": "https://diyaprajapati.github.io"
     },
     {
         "image": "/NoteNex.png",
