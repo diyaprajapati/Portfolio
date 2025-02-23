@@ -6,22 +6,22 @@
         "link": "https://github.com/diyaprajapati/ProjectHunt"
     },
     {
-        "image": "/nadiad_wiki.png",
-        "title": "Nadiad Wiki",
-        "about": "Using TypeScript, React JS and tailwind CSS",
-        "link": "https://nadiad.wiki"
-    },
-    {
         "image": "/portfolio-react.png",
         "title": "Portfolio",
         "about": "Using React JS and tailwind CSS",
         "link": "https://diya-prajapati.vercel.app"
     },
     {
-        "image": "/NoteNex.png",
-        "title": "NoteNex",
-        "about": "Using HTML, CSS, JS, Express JS, Node JS and MongoDB in Hackathon",
-        "link": "https://github.com/diyaprajapati/NoteNex"
+        "image": "/mAIndmap.png",
+        "title": "mAIndmap",
+        "about": "Using Next JS & postgres in Hackathon",
+        "link": "https://www.maindmap.xyz/"
+    },
+    {
+        "image": "/nadiad_wiki.png",
+        "title": "Nadiad Wiki",
+        "about": "Using TypeScript, React JS and tailwind CSS",
+        "link": "https://nadiad.wiki"
     },
     {
         "image": "/BidIt.png",
