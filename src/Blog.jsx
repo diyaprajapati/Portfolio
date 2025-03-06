@@ -9,11 +9,11 @@ export default function Blog() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
-    const CMS_URL = 'http://localhost:8081/api/4/10';
-    const API_KEY = 'b7fbd26b-2f01-4ca4-8641-d10dea149fe8';
+    const CMS_URL = 'http://localhost:8081/api/27/18';
+    const API_KEY = 'd37c7e45-d40d-4012-8849-f11b16bc690b';
 
-    const URL = 'http://localhost:8081/api/2/11';
-    const API = 'f45e59de-78ef-40fd-a621-57a50184e200';
+    const URL = 'http://localhost:8081/api/25/19';
+    const API = '9ea5456b-dd4b-4077-8f18-3097dbb700e7';
 
     useEffect(() => {
         const fetchData = async () => {
