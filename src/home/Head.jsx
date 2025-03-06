@@ -44,22 +44,22 @@ export default function Header() {
         <div className="md:hidden">
 
           {/* humburger */}
-            <button onClick={toggleMenu} className="text-black focus:outline-none">
-              <svg
-                className="w-8 h-8"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16m-7 6h7"
-                />
-              </svg>
-            </button>
+          <button onClick={toggleMenu} className="text-black focus:outline-none">
+            <svg
+              className="w-8 h-8"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
         </div>
 
         {/* Buttons and links for medium to large screens */}
@@ -92,7 +92,7 @@ export default function Header() {
 
         {/* close button */}
         <div className='text-end my-10 mx-5'>
-          <CloseButton onClick={closeMenu}/>
+          <CloseButton onClick={closeMenu} />
         </div>
 
         {/* links and button */}
@@ -110,7 +110,7 @@ export default function Header() {
             Achievements
           </Link>
           <div className="border-[2px] border-orange-600 py-2 px-4 rounded-full text-orange-600 hover:bg-orange-600 hover:text-white hover:transition-all hover:ease-in-out duration-200">
-            <a href="https://drive.google.com/file/d/1j9VOimbCSQi_4SmMWsgcnChTIJETyxBD/view?usp=sharing" target='_blank'>
+            <a href="https://drive.google.com/file/d/19nvuJuskFIUeFJbP2VSB0MoEoAqG2oJc/view?usp=sharing" target='_blank'>
               <button className="p-2" onClick={closeMenu}>Resume</button>
             </a>
           </div>

@@ -11,10 +11,6 @@
                 "txt": "C++"
             },
             {
-                "imge": "/javascript.png",
-                "txt": "Java Script"
-            },
-            {
                 "imge": "/java.png",
                 "txt": "Java"
             }
@@ -32,12 +28,20 @@
                 "txt": "CSS"
             },
             {
+                "imge": "/javascript.png",
+                "txt": "Java Script"
+            },
+            {
                 "imge": "/reactjs.png",
                 "txt": "React JS"
             },
             {
                 "imge": "/tailwind.png",
                 "txt": "Tailwind CSS"
+            },
+            {
+                "imge": "typescript.png",
+                "txt": "Type Script"
             }
         ]
     },
@@ -45,21 +49,16 @@
         "title": "Back-End",
         "lans": [
             {
+                "imge": "spring-boot.png",
+                "txt": "Spring Boot"
+            },
+            {
                 "imge": "/nodejs.png",
                 "txt": "Node JS"
             },
             {
                 "imge": "/expressjs.png",
                 "txt": "Express JS"
-            }
-        ]
-    },
-    {
-        "title": "Mobile App Development",
-        "lans": [
-            {
-                "imge": "/android.png",
-                "txt": "Android"
             }
         ]
     },
@@ -77,20 +76,23 @@
         ]
     },
     {
-        "title": "Software",
-        "lans": [
-            {
-                "imge": "/figma.png",
-                "txt": "Figma"
-            }
-        ]
-    },
-    {
         "title": "Other",
         "lans": [
             {
                 "imge": "/git.png",
                 "txt": "Git"
+            },
+            {
+                "imge": "github-50.png",
+                "txt": "Github"
+            },
+            {
+                "imge": "visual-studio.png",
+                "txt": "VS Code"
+            },
+            {
+                "imge": "intellij-idea.png",
+                "txt": "Intellij Idea"
             }
         ]
     }

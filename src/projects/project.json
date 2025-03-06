@@ -1,32 +1,32 @@
 [
     {
+        "image": "/contentaura.png",
+        "title": "ContentAura",
+        "about": "A B2B content management platform enabling users to define schemas dynamically.",
+        "link": "https://content-aura.vercel.app/"
+    },
+    {
         "image": "/projectHunt.png",
         "title": "Project Hunt",
-        "about": "Using TypeScript, Spring boot, Postgres, React JS and tailwind CSS",
-        "link": "https://github.com/diyaprajapati/ProjectHunt"
+        "about": "A project-sharing platform where users can upload and upvote on projects.",
+        "link": "https://project-hunt-nu.vercel.app/"
     },
     {
         "image": "/portfolio-react.png",
         "title": "Portfolio",
-        "about": "Using React JS and tailwind CSS",
+        "about": "a personal portfolio website to showcase projects, experience, and skills",
         "link": "https://diya-prajapati.vercel.app"
     },
     {
         "image": "/mAIndmap.png",
         "title": "mAIndmap",
-        "about": "Using Next JS & postgres in Hackathon",
+        "about": "Built a brainstorming and mind-mapping tool that helps users visually organize thoughts and ideas.",
         "link": "https://www.maindmap.xyz/"
     },
     {
         "image": "/nadiad_wiki.png",
         "title": "Nadiad Wiki",
-        "about": "Using TypeScript, React JS and tailwind CSS",
+        "about": "A community-driven guide to Nadiad’s best food, landmarks, and culture.",
         "link": "https://nadiad.wiki"
-    },
-    {
-        "image": "/BidIt.png",
-        "title": "Bid-It",
-        "about": "Using HTML and CSS in 2nd sem project",
-        "link": ""
     }
 ]
