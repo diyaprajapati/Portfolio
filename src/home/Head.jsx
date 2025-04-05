@@ -83,7 +83,7 @@ export default function Header() {
             </Link>
           </div>
           <div className="border-[2px] border-orange-600 py-2 px-4 rounded-full text-orange-600 hover:bg-orange-600 hover:text-white hover:transition-all hover:ease-in-out duration-200">
-            <a href="https://drive.google.com/file/d/1j9VOimbCSQi_4SmMWsgcnChTIJETyxBD/view?usp=sharing" target='_blank'>
+            <a href="https://drive.google.com/file/d/19nvuJuskFIUeFJbP2VSB0MoEoAqG2oJc/view?usp=sharing" target='_blank'>
               <button className="p-2">Resume</button>
             </a>
           </div>
