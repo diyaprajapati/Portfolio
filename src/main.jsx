@@ -1,35 +1,35 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'; 
+import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx'
 import './index.css'
-import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Skills from './Skills.jsx';
 import Projects from './Projects.jsx';
 import Achievements from './Achievements.jsx';
 
-const router = createBrowserRouter (
+const router = createBrowserRouter(
   [
     {
       path: '/',
-      element: <App/>
+      element: <App />
     },
     {
       path: '/skill',
-      element: <Skills/>
+      element: <Skills />
     },
     {
       path: '/project',
-      element: <Projects/>
+      element: <Projects />
     },
     {
       path: '/achievement',
-      element: <Achievements/>
+      element: <Achievements />
     }
   ]
 )
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router}/>
+  <RouterProvider router={router} />
 )

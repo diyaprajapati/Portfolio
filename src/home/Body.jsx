@@ -123,7 +123,7 @@ export default function Body() {
                         <p className='text-lg font-medium text-gray-700 mb-8'>I am open for the following roles. </p>
                         <div className="flex flex-row gap-4 justify-center">
                             {roles.map((role, id) => (
-                                <div key={id} className="border-2 border-orange-700 px-2 py-1 rounded-md text-orange-700 cursor-pointer">
+                                <div key={id} className="bg-orange-200/60 px-2 py-1 rounded-full text-orange-600 cursor-pointer">
                                     {role.role}
                                 </div>
                             ))}
