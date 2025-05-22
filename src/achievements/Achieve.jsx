@@ -6,8 +6,8 @@ const Achieve = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const CMS_URL = import.meta.env.VITE_CMS_URL_ACHIVE;
-  const API_KEY = import.meta.env.VITE_API_KEY_ACHIVE;
+  const CMS_URL = `${import.meta.env.VITE_CMS_URL_ACHIVE}`;
+  const API_KEY = `${import.meta.env.VITE_API_KEY_ACHIVE}`;
 
   useEffect(() => {
     const fetchData = async () => {

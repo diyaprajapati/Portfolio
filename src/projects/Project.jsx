@@ -7,8 +7,8 @@ export default function Project() {
     const [error, setError] = useState(null);
     const [data, setData] = useState([]);
 
-    const CMS_URL = import.meta.env.VITE_CMS_URL;
-    const API_KEY = import.meta.env.VITE_API_KEY;
+    const CMS_URL = `${import.meta.env.VITE_CMS_URL}`;
+    const API_KEY = `${import.meta.env.VITE_API_KEY}`;
 
     useEffect(() => {
         const fetchData = async () => {
@@ -20,6 +20,7 @@ export default function Project() {
                         'X-API-Key': API_KEY
                     }
                 });
+                console.log(response.data)
                 setData(response.data);
             } catch (error) {
                 console.error('Error fetching data:', error);
