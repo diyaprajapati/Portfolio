@@ -73,7 +73,7 @@ export default function Project() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-block border-2 border-green-700 text-green-700 font-semibold px-4 py-2 rounded-lg hover:bg-green-700 hover:text-white
-                                        transition-all"
+                                        hover:rounded-full hover:transition-all hover:ease-in-out hover:duration-150"
                                     >
                                         Live
                                     </a>
@@ -83,7 +83,7 @@ export default function Project() {
                                         href={item.git_link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-block bg-green-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-green-700 transition-all"
+                                        className="inline-block bg-green-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-green-700 hover:rounded-full hover:transition-all hover:ease-in-out hover:duration-150"
                                     >
                                         Github
                                     </a>
