@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
 
 // Reusable CloseButton component
 const CloseButton = ({ onClick }) => (
@@ -24,6 +23,7 @@ const CloseButton = ({ onClick }) => (
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -33,17 +33,34 @@ export default function Header() {
     setIsOpen(false);
   };
 
+  // Handle scroll effect
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      setIsScrolled(scrollTop > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div>
-      <div className="flex justify-between px-4 py-3 lg:px-24 md:px-16">
+    <div className='mb-5'>
+      <div className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ease-in-out ${isScrolled
+        ? 'bg-transparent bg-opacity-5 backdrop-blur-md shadow-lg'
+        : 'bg-transparent'
+        } flex justify-between px-4 py-3 lg:px-24 md:px-16`}>
         <div className="text-3xl font-extrabold font-dancingScript self-center">
           <h1>Diya Prajapati</h1>
         </div>
 
         {/* Hamburger menu or Close button */}
         <div className="md:hidden">
-
-          {/* humburger */}
+          {/* hamburger */}
           <button onClick={toggleMenu} className="text-black focus:outline-none">
             <svg
               className="w-8 h-8"
@@ -63,7 +80,6 @@ export default function Header() {
         </div>
 
         {/* Buttons and links for medium to large screens */}
-
         <div className='hidden md:flex md:flex-row gap-20 text-end md:gap-12'>
           <div className='flex flex-row gap-5 self-center'>
             <Link to="/" className={`nav-link`}>
@@ -89,7 +105,6 @@ export default function Header() {
 
       {/* Sliding menu for small screens */}
       <div className={`lg:hidden ${isOpen ? 'block' : 'hidden'} fixed inset-0 z-50 bg-slate-400 bg-opacity-90 transition-transform duration-300 ease-in-out transform`}>
-
         {/* close button */}
         <div className='text-end my-10 mx-5'>
           <CloseButton onClick={closeMenu} />

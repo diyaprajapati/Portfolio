@@ -7,9 +7,9 @@ export default function App() {
   return (
     <>
       <Layout>
-        <Header/>
-        <Body/>
-        <Footer/>
+        <Header />
+        <Body />
+        <Footer />
       </Layout>
     </>
   )

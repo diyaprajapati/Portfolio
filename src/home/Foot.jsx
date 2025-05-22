@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function footer() {
   return (
-    <div className='self-center flex md:flex-row flex-col md:w-[80%] lg:w-[70%] w-[85%] py-5 rounded-xl lg:gap-28 bg-white drop-shadow-2xl lg:px-36 lg:py-6 lg:rounded-full md:px-16 md:gap-12'>
+    <div className='self-center flex md:flex-row flex-col md:w-[80%] lg:w-[70%] w-[85%] py-5 rounded-xl lg:gap-28 drop-shadow-2xl lg:px-36 lg:py-6 lg:rounded-full md:px-16 md:gap-12'>
       {/* other accounts */}
       <div className='flex flex-col gap-3 font-semibold text-gray-500 text-center self-center'>
-        <h1>Check out my</h1>
+        <h1>Find me on</h1>
         <div className='flex flex-row gap-10 md:gap-6'>
           <a href="https://github.com/diyaprajapati"><img src='/github-50.png' className='hover:scale-110 hover:transition-all hover:ease-in-out duration-200'></img></a>
           <a href="https://www.linkedin.com/in/diya-prajapati-453858267/"><img src='/linkedin_icon.png' className='hover:scale-110 hover:transition-all hover:ease-in-out duration-200 w-[48px] md:w-[48px]'></img></a>

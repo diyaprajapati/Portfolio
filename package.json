@@ -19,6 +19,7 @@
     "react-tilt": "^1.0.2"
   },
   "devDependencies": {
+    "@types/node": "^22.15.21",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
