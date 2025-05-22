@@ -46,7 +46,7 @@ export default function Body() {
                     <div className='flex flex-col sm:flex-row gap-4 sm:gap-6 mt-4'>
                         <button
                             onClick={() => scrollToSection('about-me')}
-                            className='border-2 border-orange-600 px-5 py-3 rounded-2xl hover:-translate-y-0.5 transition-all delay-100 hover:bg-orange-600 hover:text-white hover:drop-shadow-lg text-center hover:border-none'
+                            className='border-2 border-orange-600 px-5 py-3 rounded-2xl hover:-translate-y-0.5 transition-all delay-100 hover:bg-orange-600 hover:text-white hover:drop-shadow-lg text-center'
                         >
                             About me
                         </button>
