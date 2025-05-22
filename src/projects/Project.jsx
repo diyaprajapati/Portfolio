@@ -7,8 +7,8 @@ export default function Project() {
     const [error, setError] = useState(null);
     const [data, setData] = useState([]);
 
-    const CMS_URL = 'https://api.contentaura.xyz/api/2/40';
-    const API_KEY = 'bd313d20-d844-4b54-b606-b51ae7eefd54';
+    const CMS_URL = import.meta.env.VITE_CMS_URL;
+    const API_KEY = import.meta.env.VITE_API_KEY;
 
     useEffect(() => {
         const fetchData = async () => {

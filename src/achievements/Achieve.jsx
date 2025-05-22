@@ -6,8 +6,8 @@ const Achieve = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const CMS_URL = 'https://api.contentaura.xyz/api/2/41';
-  const API_KEY = 'bd313d20-d844-4b54-b606-b51ae7eefd54';
+  const CMS_URL = import.meta.env.VITE_CMS_URL_ACHIVE;
+  const API_KEY = import.meta.env.VITE_API_KEY_ACHIVE;
 
   useEffect(() => {
     const fetchData = async () => {
