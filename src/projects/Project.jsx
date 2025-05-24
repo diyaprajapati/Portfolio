@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { motion } from 'framer-motion';
 import Header from '../home/Head';
 
 export default function Project() {
@@ -20,7 +21,7 @@ export default function Project() {
                         'X-API-Key': API_KEY
                     }
                 });
-                console.log(response.data)
+                console.log(response.data);
                 setData(response.data);
             } catch (error) {
                 console.error('Error fetching data:', error);
@@ -44,7 +45,14 @@ export default function Project() {
         <div className="flex flex-wrap justify-center">
             {data.length > 0 ? (
                 data.map((item, index) => (
-                    <div key={index} className="bg-white rounded-2xl shadow-md p-5 m-5 max-w-sm">
+                    <motion.div
+                        key={index}
+                        className="bg-white rounded-2xl shadow-md p-5 m-5 max-w-sm"
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: index * 0.2 }}
+                        viewport={{ once: true }}
+                    >
                         {/* Image */}
                         <div className="flex justify-center overflow-hidden rounded-t-lg border-2 border-gray-200">
                             <img src={item.image} alt={item.title} className="w-full h-48 object-cover" />
@@ -66,32 +74,35 @@ export default function Project() {
                                 </div>
                             )}
 
-                            {/* Link Button */}
+                            {/* Buttons */}
                             <div className='flex gap-4'>
                                 {item.link && (
-                                    <a
+                                    <motion.a
+                                        whileHover={{ scale: 1.05 }}
+                                        transition={{ type: 'spring', stiffness: 300 }}
                                         href={item.link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-block border-2 border-green-700 text-green-700 font-semibold px-4 py-2 rounded-lg hover:bg-green-700 hover:text-white
-                                        hover:rounded-full hover:transition-all hover:ease-in-out hover:duration-150"
+                                        className="inline-block border-2 border-green-700 text-green-700 font-semibold px-4 py-2 rounded-lg hover:bg-green-700 hover:text-white hover:rounded-full hover:transition-all hover:ease-in-out hover:duration-150"
                                     >
                                         Live
-                                    </a>
+                                    </motion.a>
                                 )}
                                 {item.git_link && (
-                                    <a
+                                    <motion.a
+                                        whileHover={{ scale: 1.05 }}
+                                        transition={{ type: 'spring', stiffness: 300 }}
                                         href={item.git_link}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-block bg-green-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-green-700 hover:rounded-full hover:transition-all hover:ease-in-out hover:duration-150"
                                     >
                                         Github
-                                    </a>
+                                    </motion.a>
                                 )}
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
                 ))
             ) : (
                 <p className="text-center text-gray-500 mt-5">No projects found.</p>
