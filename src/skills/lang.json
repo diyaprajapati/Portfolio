@@ -42,6 +42,14 @@
             {
                 "imge": "typescript.png",
                 "txt": "Type Script"
+            },
+            {
+                "imge": "next.png",
+                "txt": "Next JS"
+            },
+            {
+                "imge": "next.png",
+                "txt": "Next JS"
             }
         ]
     },
