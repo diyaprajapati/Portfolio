@@ -46,10 +46,6 @@
             {
                 "imge": "next.png",
                 "txt": "Next JS"
-            },
-            {
-                "imge": "next.png",
-                "txt": "Next JS"
             }
         ]
     },
@@ -67,6 +63,10 @@
             {
                 "imge": "/expressjs.png",
                 "txt": "Express JS"
+            },
+            {
+                "imge": "next.png",
+                "txt": "Next JS"
             }
         ]
     },
